@@ -27,9 +27,7 @@ $(document).ready(function() {
     }
 
     function checkTask() {
-        console.log("Checkbox clicked")
-        // $("span").addClass("finished");
-        $(this).children().addClass("finished");
+        $(this).parent().addClass("finished");
     }
 
     $(document).on("click", "button", addTask);
