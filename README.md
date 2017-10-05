@@ -1,4 +1,4 @@
-To-Do List utilizes jQuery to dynamically add and check off tasks from a list. 
+To-Do List utilizes jQuery to dynamically add and check off tasks from a list. View it live at https://codepen.io/MissZiyal/pen/KXZBqO
 
 __Built With:__
 * HTML
