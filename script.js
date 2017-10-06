@@ -22,7 +22,12 @@ $(document).ready(function() {
 
     // Adds line-through when checkbox clicked
     function checkTask() {
-        $(this).parent().addClass("finished");
+        // $(this).parent().addClass("complete");
+        if($(this).parent().hasClass("complete")) {
+            $(this).parent().removeClass("complete")
+        } else {
+            $(this).parent().addClass("complete")
+        }
     }
 
     $(document).on("click", "button", addTask);

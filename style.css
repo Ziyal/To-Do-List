@@ -76,7 +76,7 @@ input[type=checkbox] {
     height: 20px;
 }
 
-.finished {
+.complete {
     text-decoration: line-through;
 }
 
